@@ -1,0 +1,32 @@
+{
+  "name": "sgi-edu-demo-web-app",
+  "version": "1.0.0",
+  "description": "monolithic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so230/sgi-edu.git"
+  },
+  "keywords": [
+    "sgi-edu"
+  ],
+  "author": "so230",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/so230/sgi-edu/issues"
+  },
+  "homepage": "https://github.com/so230/sgi-edu#readme",
+  "dependencies": {
+    "@aws-sdk/client-kafka": "^3.363.0",
+    "@jm18457/kafkajs-msk-iam-authentication-mechanism": "^3.1.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "kafkajs": "^2.2.4"
+  }
+}
