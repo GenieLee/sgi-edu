@@ -39,4 +39,8 @@ public class AccountQueryController {
         return accountQueryService.updateCompany(accountId, company);
     }
 
+    @GetMapping("/check")
+    public String check(){
+        return "deploy check";
+    }
 }
