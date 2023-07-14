@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true })); // support encoded bodies
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-const brokersEndpoint = 'b-2.sgidemomsk.o9fr30.c4.kafka.ap-northeast-2.amazonaws.com:9094,b-3.sgidemomsk.o9fr30.c4.kafka.ap-northeast-2.amazonaws.com:9094,b-1.sgidemomsk.o9fr30.c4.kafka.ap-northeast-2.amazonaws.com:9094';
+const brokersEndpoint = 'b-2.sgidemomsk.irn4r5.c3.kafka.ap-northeast-2.amazonaws.com:9094,b-1.sgidemomsk.irn4r5.c3.kafka.ap-northeast-2.amazonaws.com:9094,b-3.sgidemomsk.irn4r5.c3.kafka.ap-northeast-2.amazonaws.com:9094';
 const kafka = new Kafka({
   clientId: 'company',
   brokers: brokersEndpoint.split(','),
